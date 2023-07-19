@@ -41,6 +41,7 @@ id_sala INTEGER PRIMARY KEY,
 nombre VARCHAR(50),
 direccion VARCHAR(50),
 telefono INTEGER,
+id_funcion INTEGER REFERENCES funciones(id_funcion)
 );
 
 
